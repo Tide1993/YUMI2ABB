@@ -114,7 +114,7 @@
     Array.from(forms).forEach(form => {
         form.addEventListener('submit', event => {
             if (form.checkValidity()) {
-                AddOrder('Chocolate');  // เปลี่ยนรสชาติไอติมตรงนี้
+                AddOrder('Milk');  // เปลี่ยนรสชาติไอติมตรงนี้
                 $("#exampleModal").modal('show')
                 event.preventDefault();
                 event.stopPropagation();
